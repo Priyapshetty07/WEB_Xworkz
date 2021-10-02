@@ -1,0 +1,22 @@
+body{
+    padding: 50px;
+}
+.outerbox{
+    padding: 200px;
+    border: rgb(0, 255, 55);
+    border-style:dotted;
+    background-color: rgb(231, 205, 255);
+   
+
+}
+.innerbox{
+    padding:100px;
+    background-color: rgb(233, 48, 48);
+    width: 80px;
+    height: 20px;
+    border-style:inset;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: -146px;
+  }

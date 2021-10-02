@@ -1,0 +1,54 @@
+body{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(122, 115, 115);
+    
+}
+
+h1{
+    text-align: center;
+    color:black;
+    font-family:cursive;
+     
+}
+
+form{
+    border: 5px solid floralwhite;
+    padding: 25px;
+    border-radius: 50px;
+    width: 900px;
+    margin: 5%;
+    text-align: center;
+    margin-left: 182px;
+    
+    
+}
+
+.container{
+    padding: 50px;
+    background-color: honeydew;
+    
+    
+}
+
+input[type=text],[type=password]{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 2px;
+    display: inline-block;
+    border:3px solid rgb(141, 137, 137);
+    box-sizing:border-box; 
+
+}
+button{
+    background-color: green;
+    width: 100%;
+    color: black;
+    padding: 10px 2px;
+    margin: 20px 0;
+    border: none;
+    cursor: pointer;
+}
+button:hover{
+       background-color: red;
+}
+
