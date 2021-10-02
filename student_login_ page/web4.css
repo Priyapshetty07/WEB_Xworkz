@@ -1,0 +1,31 @@
+Body {  
+    font-family: cursive;  
+    background-color: rgb(236, 16, 53);  
+  }  
+
+form {   
+    border: 10px solid #6d6060;   
+}   
+
+.container {   
+    padding: 80px;   
+    background-color: rgb(17, 133, 153);  
+}   
+
+input[type=text], input[type=password] {   
+    width: 100%;   
+    margin: 10px;  
+    padding: 10px;      
+    border: 3px solid rgb(87, 35, 155);   
+    box-sizing: border-box;   
+}  
+
+button {   
+    background-color: #14cc1b;   
+    width: 100%;  
+     color: rgb(255, 0, 0);   
+     padding: 15px;   
+     margin: 10px;   
+     border: none;   
+     cursor: pointer;   
+      }   
