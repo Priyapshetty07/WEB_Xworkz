@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nykaa Registration page</title>
+    <link rel="stylesheet" href="nykaa.css">
+    <script src="nykaa.js"></script>
+
+</head>
+<body>
+    
+    <header>
+        <h1>NYKAA Online Shopping</h1>
+        <img src="nykaa.png" alt="">
+    </header>
+    <div class="linkpage">
+        <a href="nykaa_loginpage.html">Login*</a>
+    </div>
+    
+
+    <form>
+        <table>
+            <h1 class="Register">Register to order</h1>
+            
+            <tr>
+                <td><label>User Name:</label></td>
+                <td><input type="text" name="un" id="username" placeholder="enter your User Name"></td>
+            </tr>
+         
+            <tr>
+                <td><label>Email Id:</label></td>
+                <td><input type="email" name="em" id="emailid" placeholder="enter your Email id"></td>
+            </tr>
+
+            <tr>
+               <td><label>DOB:</label></td>
+               <td><input type="date" id="dob"></td>
+            </tr>
+
+            <tr>
+                <td><label id="gender"> Gender:</label></td>
+                <td><input type="radio"  name="sex"><label>Male</label>
+                <input type="radio"  name="sex"><label>Female</label>
+                <input type="radio"  name="sex"><label>Other</label></td>
+            </tr>
+
+            <tr>
+                <td><label>Contact Number:</label></td>
+                <td><input type="number" id="number" placeholder="enter your phone number"></td>
+            </tr> 
+            
+           <tr>
+                <td><label>Password:</label></td>
+                <td><input type="password" id="pass1" placeholder="enter password"></td>
+                    
+            </tr>
+
+            <tr>
+                <td><label> Comfirm Password:</label></td>
+                <td><input type="password" id="pass2" placeholder="enter password"></td>
+            </tr>
+
+           
+            <tr> 
+                <td><input type="submit"  onclick="validation()"  value="Save"></td>
+                <td><input type="submit" value="Clear"></td>
+             </tr>
+        </table>    
+    </form>
+    
+    <footer>
+        <h2>@copyright</h2>
+    </footer>
+</body>
+</html>

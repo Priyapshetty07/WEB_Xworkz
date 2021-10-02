@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nykaa login page</title>
+    <link rel="stylesheet" href="nykaa_loginpage.css">
+    <script>
+        function validationlogin() {
+           let namelog=document.getElementById("username").value;
+                if(namelog == "" || namelog == null ){
+                alert(" Username Cannot be null or empty");
+             }
+             else if(namelog.length <6 || namelog.length >15){
+                alert("Length of username must be within 6 to 15");
+            }
+            else{ 
+                validationpassword();
+                alert("Valid username");
+                  } 
+        }
+        function validationpassword() {
+            let pass1=document.getElementById("pass").value;
+                if(pass1 == "" || pass1 == null){
+                    alert(" password Cannot be null or empty");
+                }
+                else if(pass1.length <8 || pass1.length >16 && pass1.length <8 || pass1.length >16){
+                    alert("Length of password must be within 8 to 16");
+                }
+                else{
+                alert("Valid password");
+                  } 
+            }
+         
+    </script>
+   
+</head>
+<body>
+
+    <!-- <div class="linkpage">
+        <nav>
+        </nav>
+    </div> -->
+    
+    <header>
+        <h1>NYKAA Online Shopping</h1>
+        <img src="nykaa.png" alt="">
+    </header>
+    <div class="linkpage">
+        <a href="nykaa.html">Registration*</a>
+    </div>
+    
+
+
+    <form>
+        <!-- <a href="nykaa.html">Registration</a> -->
+        <table>
+                <h2 class="sign">SIGN IN TO ORDER</h2>
+          
+            <tr> 
+                <td><label>USERNAME:</label>
+                <input type="text" name="un" id="username" placeholder="Enter Username"></td>
+            </tr>
+
+            <tr>
+                <td><label>PASSWORD:</label>
+                <input type="password"  id="pass" placeholder="Enter Password"></td>
+            </tr>
+
+            <tr> 
+               <td><input type="submit" onclick="validationlogin()"  value="Submit"></td>
+            </tr>
+        </table> 
+        
+    </form>
+    
+
+    <footer>
+        <h2>@copyright</h2>
+    </footer>
+    
+</body>
+</html>
